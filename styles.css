@@ -2,7 +2,241 @@
     padding: 0;
     margin: 0;
     list-style: none;
+
+--colorFondo:#040404;
+--texto:#FFFFFF;
+
+--fondoPrimermain:#808080;
+--form:#928989;
 }
+
+
+
+
+/* Encabezado */
+section{
+    display: flex;
+    justify-content: center;
+    background-color: #808080 ;
+}
+
+section svg {
+    
+width: 10%;
+height: 10%;
+
+}
+
+body{
+    background-color: var(--colorFondo);
+}
+
+/* Menu */
+header {
+    background-color: rgb(80, 79, 79);
+    margin-bottom: 2rem;
+}
+header nav ul{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+
+    font-size: 1.3rem;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color:var(--texto)
+}
+
+
+.primermain{
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: grey;
+    
+    border-radius: 2rem;
+}
+.logeo{
+    background-color: rgb(92, 89, 89);
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+    width: 48%;
+    height: 28rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.primermain article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    height: 90%;
+}
+
+.primermain article div form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+
+    
+}
+
+aside{
+    background-color: rgb(66, 65, 65);
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h4{
+    text-align: center;
+}
+
+aside{
+    width: 48%;
+    height: 28rem;
+    border-radius: 1.5rem;
+}
+
+.logo{
+    
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.capalogo{
+    width: auto;
+    height: 45%;
+    border-radius: 100%;
+
+    padding: 2rem;
+
+    background-color: rgb(184, 173, 159);
+}
+
+
+
+aside svg{
+   width: 10rem;
+   height: 10rem;
+
+}
+
+.parrafologo{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.segundomain{
+    margin-top: 1.5rem;
+
+    background-color: grey;
+    
+    border-radius: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    border: 1px solid red;
+}
+
+.imagenes{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.imagenes img{ 
+    width: 20%;
+    height: auto;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    margin-top: 2rem;
+}
+
+.footerRedesSociales,.footerInformacion,.footerLinks{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+font-weight: 900;
+}
+
+.footerCajas{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footerDiv{
+    height: 5rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+    color: white;
+}
+footer .footerLinksG .footerCajas div li i{
+    
+    letter-spacing: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

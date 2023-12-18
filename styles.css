@@ -103,13 +103,13 @@ height: auto;
 
 /* TITULOS y letras*/
 
-h1 {
+.h1Aintzane {
     font-size: 4rem;
     color: white;
     margin: 1rem;
 }
 
-h4 {
+.h4Aintzane {
     font-size: 2rem;
     color: white;
 }
@@ -119,7 +119,7 @@ p {
     color: #090909;
 }
 
-h3 {
+.h3Aintzane {
     font-size: 1rem;
     color: #090909;
 }
@@ -255,6 +255,9 @@ text-align: left;
 margin-left: 2rem;
 margin-top: 1rem;
 }
+
+/* CSS RAYAN */
+
 
 @media screen and (max-width: 1017px) {
 

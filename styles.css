@@ -17,6 +17,152 @@
 
 
 /* CSS ANDRES */
+/* Eigen Code. Quienes somos */
+
+.imgquienessomos {
+    height: 60rem;
+    width: 55rem;
+}
+
+
+.quienessomos, p {
+display: flex;
+background-color: #665e5e;
+text-align: left;
+font-size: 20px;
+align-items: center;
+
+}
+
+.txtquienessomos {
+margin-left: 100px;
+margin-right: 100px;
+background-color: #665e5e;
+
+
+}
+
+.h1quienessomos {
+background-color:#665e5e
+
+}
+
+
+
+/* Eigen code. Misión */
+
+
+.mision {
+display: flex;
+}
+
+
+.h1mision {
+display: flex;
+align-items: center;
+height: 20rem;
+width: 50rem;
+justify-content: center;
+
+}
+
+.txtmision p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtmision {
+justify-content: left;
+align-items: center;
+}
+
+/* Eigen code Vision */
+
+.vision {
+display: flex;
+flex-direction: row-reverse;
+}
+
+.h1vision {
+display: flex;
+align-items: center;
+height: 20rem;
+width: 50rem;
+justify-content: center;
+
+}
+
+.txtvision p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtvision {
+justify-content: left;
+align-items: center;
+}
+
+
+/* Egen code Valores */
+
+.valores {
+display: flex;
+flex-direction: row;
+}
+
+.h1valores {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20rem;
+width: 50rem;
+
+}
+
+.txtvalores p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtvalores {
+justify-content: left;
+align-items: center;
+}
+
+/* Eigen code Nuestro Equipo */
+
+.h1nuestroequipo {
+display: flex;
+justify-content: center;
+}
+
+.imgequipo {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.imgequipo img {
+height: 20rem;
+width: 20rem;
+object-fit: cover;
+
+
+}
+
+.nuestroequipo {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
 
 
 /* CSS RAYAN */

@@ -88,13 +88,13 @@
 
 
 /* CSS ANDRES */
+
 /* Eigen Code. Quienes somos */
 
 .imgquienessomos {
     height: 60rem;
     width: 55rem;
 }
-
 
 .quienessomos {
 display: flex;
@@ -438,7 +438,7 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
-svg {    
+.logP {    
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;

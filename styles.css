@@ -21,9 +21,7 @@ header {
 }
 
 nav ul {
-    width: 70%;
     font-size: 2rem;
-    width: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -55,9 +53,11 @@ a:link, a:visited, a:active {
 }
 
 svg {    
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
     width: 3rem;
     height: 3rem;
-    margin: 1rem;
 }
 
  /* FOOTER */
@@ -256,8 +256,20 @@ margin-left: 2rem;
 margin-top: 1rem;
 }
 
-@media screen and (max-width: 1017) {
+@media screen and (max-width: 1017px) {
 
+/* HEADER */
 
+nav ul {
+    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+}
 
 }
+
+@media screen and (max-width: 711px) {
+
+
+    
+    }

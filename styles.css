@@ -25,7 +25,7 @@
 }
 
 
-.quienessomos, p {
+.quienessomos {
 display: flex;
 background-color: #665e5e;
 text-align: left;

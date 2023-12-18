@@ -10,96 +10,19 @@
     --form:#928989; */
 }
 
-/* HEADER */
+/* CSS KELTHUM */
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: grey;
-    justify-content: space-between;
 
-}
+/* CSS JHON */
 
-nav ul {
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-around;
-}
 
-nav ul li {
-    margin: 1rem;
-}
+/* CSS ANDRES */
 
-.LN {
-    border-radius: 1rem;
-    background-color: #3E03E8;
-    padding: 0.2rem;
-}
 
-li {
-    color: #211C1C;
-}
+/* CSS RAYAN */
 
-a {
-    color: #ffffff;
-}
 
-a:hover {
-    color: white;
-}
-
-a:link, a:visited, a:active {
-    text-decoration: none;
-}
-
-svg {    
-    position: absolute;
-    top: 0.5rem;
-    left: 0.5rem;
-    width: 3rem;
-    height: 3rem;
-}
-
- /* FOOTER */
-.footerCajas{
-    background-color: #A3A2A2;
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-
-}
-
-.footerDiv{
-    height: 5rem;
-    background-color: #6B6B6B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    color: #211C1C;
-}
-
-.footerCajas li {
-    font-size: small;
-}
-
-footer .footerLinksG .footerCajas div li i{
-    
-    letter-spacing: 0.5rem;
-}
-
-.ul{
-    list-style: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.RRSS{
-width: 1rem;
-height: auto;
-}
+/* CSS AINTZANE */
 
 /* TITULOS y letras*/
 
@@ -256,10 +179,114 @@ margin-left: 2rem;
 margin-top: 1rem;
 }
 
-/* CSS RAYAN */
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+.LN {
+    border-radius: 1rem;
+    background-color: #3E03E8;
+    padding: 0.2rem;
+}
+
+li {
+    color: #211C1C;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+svg {    
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+ /* FOOTER */
+.footerCajas{
+    background-color: #A3A2A2;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+.footerDiv{
+    height: 5rem;
+    background-color: #6B6B6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #211C1C;
+}
+
+.footerCajas li {
+    font-size: small;
+}
+
+footer .footerLinksG .footerCajas div li i{
+    
+    letter-spacing: 0.5rem;
+}
+
+.ul{
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.RRSS{
+width: 1rem;
+height: auto;
+}
+
 
 
 @media screen and (max-width: 1017px) {
+
+    /* CSS KELTHUM */
+
+
+/* CSS JHON */
+
+
+/* CSS ANDRES */
+
+
+/* CSS RAYAN */
+
+
+/* CSS AINTZANE */
 
 /* HEADER */
 
@@ -273,6 +300,18 @@ nav ul {
 
 @media screen and (max-width: 711px) {
 
+/* CSS KELTHUM */
 
+
+/* CSS JHON */
+
+
+/* CSS ANDRES */
+
+
+/* CSS RAYAN */
+
+
+/* CSS AINTZANE */
     
     }

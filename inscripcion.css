@@ -1,0 +1,908 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+<<<<<<< HEAD
+/*     --colorFondo:#040404;
+    --texto:#FFFFFF;
+    
+    --fondoPrimermain:#808080;
+    --form:#928989; */
+}
+
+/* CSS KELTHUM */
+
+
+/* CSS JHON */
+
+
+/* CSS ANDRES */
+/* Eigen Code. Quienes somos */
+
+.imgquienessomos {
+    height: 60rem;
+    width: 55rem;
+}
+
+
+.quienessomos {
+display: flex;
+background-color: #665e5e;
+text-align: left;
+font-size: 20px;
+align-items: center;
+
+}
+
+.txtquienessomos {
+margin-left: 100px;
+margin-right: 100px;
+background-color: #665e5e;
+
+
+}
+
+.h1quienessomos {
+background-color:#665e5e
+=======
+    --colorFondo: #211C1C;
+    --texto: #FFFFFF;
+
+    --fondoPrimermain: #625E5E;
+    --form: #928989;
+    --header: #575656;
+    --fondoimagen: #877E7E;
+}
+
+
+
+
+/* Encabezado */
+section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--fondoPrimermain);
+}
+
+section svg {
+
+    width: 10%;
+    height: 10%;
+
+}
+
+body {
+    background-color: var(--colorFondo);
+}
+
+/*/////////////////////////////////////////// MENU///////////////////////////////// */
+header {
+    background-color: var(--header);
+    margin-bottom: 2rem;
+}
+
+header nav ul {
+>>>>>>> e586d42 (segunda act)
+
+}
+
+
+
+/* Eigen code. Misión */
+
+
+.mision {
+display: flex;
+}
+
+
+.h1mision {
+display: flex;
+align-items: center;
+height: 20rem;
+width: 50rem;
+justify-content: center;
+
+}
+
+.txtmision p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtmision {
+justify-content: left;
+align-items: center;
+}
+
+/* Eigen code Vision */
+
+.vision {
+display: flex;
+flex-direction: row-reverse;
+}
+
+.h1vision {
+display: flex;
+align-items: center;
+height: 20rem;
+width: 50rem;
+justify-content: center;
+
+}
+
+.txtvision p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtvision {
+justify-content: left;
+align-items: center;
+}
+
+
+/* Egen code Valores */
+
+.valores {
+display: flex;
+flex-direction: row;
+}
+
+.h1valores {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20rem;
+width: 50rem;
+
+}
+
+.txtvalores p {
+height: 20rem;
+width: 65rem;
+justify-content: left;
+
+}
+
+.txtvalores {
+justify-content: left;
+align-items: center;
+}
+
+/* Eigen code Nuestro Equipo */
+
+.h1nuestroequipo {
+display: flex;
+justify-content: center;
+}
+
+.imgequipo {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.imgequipo img {
+height: 20rem;
+width: 20rem;
+object-fit: cover;
+
+
+}
+
+.nuestroequipo {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+/* CSS RAYAN */
+
+
+/* CSS AINTZANE */
+
+/* TITULOS y letras*/
+
+.h1Aintzane {
+    font-size: 4rem;
+    color: white;
+    margin: 1rem;
+}
+
+.h4Aintzane {
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    color: #090909;
+}
+
+.h3Aintzane {
+    font-size: 1rem;
+    color: #090909;
+}
+
+
+/* BLOG */
+
+.ABlog {
+    background-color: #211C1C;
+}
+
+.tituloB {
+display: flex;
+justify-content: center;
+}
+.entradasBlog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+<<<<<<< HEAD
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tituloB {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaBlogE {
+    width: 42%;
+    height: auto;
+}
+
+.parrafitoB {
+    background-color: #D9D9D9;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.buttonB {
+    background-color: #D9D9D9;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+}
+=======
+    height: 3rem;
+
+    font-size: 1.3rem;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--texto)
+}
+
+/*/////////////////////////////////// PRIMER MAIN /////////////////////////////////*/
+.primermain {
+    margin-top: 5rem;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--fondoPrimermain);
+
+    border-radius: 2rem;
+}
+
+.logeo {
+    background-color: var(--form);
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+    width: 48%;
+    height: 28rem;
+
+    border-radius: 2rem;
+
+}
+
+.titulolog {
+    text-align: center;
+    font-size: xx-large;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulologdos,
+.titulologtres,
+.titulologcuat {
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+
+}
+
+.titulologdos {
+    text-align: left;
+}
+
+.titulologtres {
+    text-align: center;
+}
+
+.titulologcuat {
+    text-align: end;
+
+}
+
+.primermain article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 90%;
+}
+
+.primermain article div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+
+
+}
+
+.primermain article div form label {
+    font-size: 1.5rem;
+}
+
+.primermain article div form input {
+    width: 10rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+}
+
+.primermain article div form button {
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(76, 76, 146);
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+
+.linkredes {
+    font-size: 2rem;
+    gap: 2rem;
+
+}
+
+.textoform {
+
+    text-align: center;
+}
+
+.textoform a {
+    text-decoration: none;
+    color: rgb(18, 35, 145);
+}
+
+.linkredes iconify-icon {
+    background-color: #D9D9D9;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
+aside {
+    background-color: var(--form);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+aside {
+    width: 48%;
+    height: 28rem;
+    border-radius: 1.5rem;
+}
+
+.logo {
+
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.capalogo {
+    width: auto;
+    height: 45%;
+    border-radius: 100%;
+
+    padding: 2rem;
+
+    background-color: rgb(184, 173, 159);
+}
+
+
+
+aside svg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.parrafologo {
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+/* /////////////////////////////SEUNGO MAIN ////////////////////////////////////////*/
+.segundomain {
+
+
+    background-color: var(--fondoPrimermain);
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    border-radius: 2rem;
+
+
+    padding-bottom: 8rem;
+
+}
+
+.imagenes {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tituloactividades {
+
+    font-size: 3.5rem;
+    text-align: center;
+
+
+
+
+
+
+
+}
+
+
+.imagenes img {
+
+
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    background-color: var(--fondoimagen);
+    width: 15%;
+    height: auto;
+}
+
+
+
+
+/*////////////////////////////////////// FOOTER//////////////////////////////////// */
+footer {
+    margin-top: 2rem;
+}
+
+.footerRedesSociales,
+.footerInformacion,
+.footerLinks {
+>>>>>>> e586d42 (segunda act)
+
+button {
+    margin: 2rem;
+}
+
+.contenedorMB {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cajaBlogEM {
+    margin: 1rem;
+    max-width: 12.5rem;
+    background-color: #877E7E;
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 0.8rem;
+}
+
+.imagenBE {
+/*     max-width: 25rem; */
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.imagenBEM {
+    width: 12rem;
+    height: auto;
+    border-radius: 0.8rem;
+}
+
+/* ENTRADAS DEL BLOG */
+
+.entradaB {
+    background-color: #877E7E;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+<<<<<<< HEAD
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.8rem;
+    text-align: left;
+}
+
+.imagenBEPost {
+    width: 80%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin: 1rem;
+
+}
+
+.imagenBEPostF {
+    width: 80%;
+    height: auto;
+    border-radius: 0.8rem;
+    margin: 1rem;
+    max-width: 30rem;
+}
+
+.imagenB {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.lista {
+    margin-left: 2rem;
+}
+
+.BArco li {
+    list-style-type: circle;
+    margin-left: 1rem;
+}
+
+.destacado {
+text-align: left;
+margin-left: 2rem;
+margin-top: 1rem;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    justify-content: space-between;
+
+}
+
+nav ul {
+    font-size: 2rem;
+=======
+    font-weight: 900;
+}
+
+.footerCajas {
+    background-color: var(--fondoPrimermain);
+>>>>>>> e586d42 (segunda act)
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+.LN {
+    border-radius: 1rem;
+    background-color: #3E03E8;
+    padding: 0.2rem;
+}
+
+li {
+    color: #211C1C;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+svg {    
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+ /* FOOTER */
+.footerCajas{
+    background-color: #A3A2A2;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+.footerDiv {
+    height: 5rem;
+<<<<<<< HEAD
+    background-color: #6B6B6B;
+=======
+    background-color: var(--header);
+>>>>>>> e586d42 (segunda act)
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+<<<<<<< HEAD
+    color: #211C1C;
+}
+
+.footerCajas li {
+    font-size: small;
+}
+
+footer .footerLinksG .footerCajas div li i{
+    
+    letter-spacing: 0.5rem;
+}
+
+.ul{
+    list-style: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.RRSS{
+width: 1rem;
+height: auto;
+=======
+    color: var(--texto);
+}
+
+footer .footerLinksG .footerCajas div li i {
+
+    letter-spacing: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.ul {
+    list-style: none;
+}
+
+.RRSS {
+    width: 1rem;
+    height: auto;
+}
+
+
+/* ////////////////////////////////MAIN REGISTRO///////////////////// */
+.tituloreg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.linkreg{
+
+   
+    
+    font-size: 2.5rem;
+    letter-spacing: 2.5rem;
+    text-decoration: none;
+    color: white;
+    
+
+>>>>>>> e586d42 (segunda act)
+}
+
+
+
+<<<<<<< HEAD
+@media screen and (max-width: 1017px) {
+
+    /* CSS KELTHUM */
+
+
+/* CSS JHON */
+
+
+/* CSS ANDRES */
+
+
+/* CSS RAYAN */
+
+
+/* CSS AINTZANE */
+
+/* HEADER */
+
+nav ul {
+    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+@media screen and (max-width: 711px) {
+
+/* CSS KELTHUM */
+
+
+/* CSS JHON */
+
+
+/* CSS ANDRES */
+
+
+/* CSS RAYAN */
+
+
+/* CSS AINTZANE */
+    
+    }
+=======
+
+
+
+
+.Registro {
+    display: flex;
+    justify-content: center;
+}
+
+.Registro .registroDiv {
+    padding: 2rem;
+    background-color: #6C6767;
+
+    width: 85%;
+
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.Registro form {
+    width: 40%;
+    padding: 2rem;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+
+
+
+}
+
+.Registro form label {
+    font-size: 1.5rem;
+}
+
+.Registro form input {
+    height: 1.5rem;
+    width: 80%;
+}
+
+
+
+.capaicon {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  
+
+
+
+}
+
+.capaicon img {
+   width: 70%;
+   
+}
+
+
+
+
+
+.Registro .registroDiv form button {
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(76, 76, 146);
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+.Registro .registroDiv form .boton{
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> e586d42 (segunda act)

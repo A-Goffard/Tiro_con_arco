@@ -120,6 +120,143 @@ a:link, a:visited, a:active {
 
 
 /* CSS KELTHUM */
+img {
+    height: 30rem;
+    width: 100%;
+}
+
+div.individual {
+
+    display: flex;
+    justify-content: center;
+}
+
+.iconindividual1 {border: 1rem solid red;
+    
+    
+    height: 5rem;
+    width: 5rem;
+}
+
+.iconindividual2 {border: 1rem solid red;
+    display: flex;
+    
+    height: 10rem;
+    width: 10rem;
+}
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+
+
+
+
+}
+
+article .aaa {
+    border: 1rem solid grey;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    background-color: rgb(31, 29, 29);
+    height: 6rem;
+
+}
+
+.aaa {
+    margin-bottom: 2rem;
+}
+
+article button {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    margin: 1rem;
+}
+
+.para1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+
+
+
+.p1 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+}
+
+.p2 {
+    color: white;
+}
+
+.p3 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+}
+
+.p4 {
+    color: white;
+}
+
+.p5 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+}
+
+.p6 {
+    color: white;
+}
+
+body {
+    background-color: rgb(29, 28, 28);
+}
+
+.title2 {
+    color: rgb(109, 105, 105);
+}
+
+
+    @media only screen and (max-width: 844px) {
+
+    main {flex-direction: column;
+          align-items: center;}
+
+          
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+}
 
 .imgkel {height:30rem ;
     width:100%;} 
@@ -559,7 +696,7 @@ height: auto;
 @media screen and (max-width: 1017px) {
 
     /* CSS KELTHUM */
-
+    
 
 /* CSS JHON */
 
@@ -606,7 +743,6 @@ height: auto;
 
 
 /* CSS AINTZANE */
-    
 }
 
 

@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    --colorFondo: #211C1C;
+    --texto: #FFFFFF;
+
+    --fondoPrimermain: #625E5E;
+    --form: #928989;
+    --header: #575656;
+    --fondoimagen: #877E7E;
+}
+
+
+
+
+
+
+
+body {
+    background-color: var(--colorFondo);
+}
+
+/*/////////////////////////////////////////// MENU///////////////////////////////// */
+/* header img{
+    width: 6%;
+}
+
+header {
+    background-color: var(--header);
+    margin-bottom: 2rem;
+    display: flex;  
+    justify-content: space-between;
+}
+
+
+header nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 3.5rem;
+    height: 100%;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--texto)
+} */
+
+/*/////////////////////////////////// PRIMER MAIN /////////////////////////////////*/
+.primermain {
+    margin-top: 5rem;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--fondoPrimermain);
+
+    border-radius: 2rem;
+}
+
+.logeo {
+    background-color: var(--form);
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+    width: 48%;
+    height: 28rem;
+
+    border-radius: 2rem;
+
+}
+
+.titulolog {
+    text-align: center;
+    font-size: xx-large;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulologdos,
+.titulologtres,
+.titulologcuat {
+    font-size: 2rem;
+    letter-spacing: 1.5rem;
+
+}
+
+.titulologdos {
+    
+    text-align: left;
+}
+
+.titulologtres {
+    text-align: center;
+}
+
+.titulologcuat {
+    text-align: end;
+
+}
+
+.primermain article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 90%;
+}
+
+.primermain article div form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+
+
+}
+
+.primermain article div form label {
+    font-size: 1.5rem;
+}
+
+.primermain article div form input {
+    width: 10rem;
+    height: 1.7rem;
+    border-radius: 0.5rem;
+}
+
+.primermain article div form button {
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(76, 76, 146);
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+
+.linkredes {
+    font-size: 2rem;
+    gap: 2rem;
+
+}
+
+.textoform {
+
+    text-align: center;
+}
+
+.textoform a {
+    text-decoration: none;
+    color: rgb(18, 35, 145);
+}
+
+.linkredes iconify-icon {
+    background-color: #D9D9D9;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
+aside {
+    background-color: var(--form);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+aside {
+    width: 48%;
+    height: 28rem;
+    border-radius: 1.5rem;
+}
+
+.logo {
+
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.capalogo {
+    width: auto;
+    height: 45%;
+    border-radius: 100%;
+
+    padding: 2rem;
+
+    background-color: rgb(184, 173, 159);
+}
+
+
+
+aside svg {
+    width: 100%;
+    height: 100%;
+
+}
+
+.parrafologo {
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+/* /////////////////////////////SEUNGO MAIN ////////////////////////////////////////*/
+.segundomain {
+
+
+    background-color: var(--fondoPrimermain);
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+    border-radius: 2rem;
+
+
+    padding-bottom: 8rem;
+
+}
+
+.imagenes {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tituloactividades {
+
+    font-size: 3.5rem;
+    text-align: center;
+
+
+
+
+
+
+
+}
+
+
+.imagenes img {
+
+
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    background-color: var(--fondoimagen);
+    width: 15%;
+    height: auto;
+}
+
+
+
+
+/*////////////////////////////////////// FOOTER//////////////////////////////////// */
+/* footer {
+    margin-top: 2rem;
+}
+
+.footerRedesSociales,
+.footerInformacion,
+.footerLinks {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+}
+
+.footerCajas {
+    background-color: var(--fondoPrimermain);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footerDiv {
+    height: 5rem;
+    background-color: var(--header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2rem;
+    color: var(--texto);
+}
+
+footer .footerLinksG .footerCajas div li i {
+
+    letter-spacing: 0.5rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+/* .ul {
+    list-style: none;
+}
+
+.RRSS {
+    width: 1rem;
+    height: auto;
+}
+ */
+
+/* ////////////////////////////////MAIN REGISTRO///////////////////// */
+.tituloreg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.linkreg{
+
+   
+    
+    font-size: 2.5rem;
+    letter-spacing: 2.5rem;
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+.Registro {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+    
+}
+
+.Registro .registroDiv {
+    padding: 2rem;
+    background-color: #6C6767;
+
+    width: 85%;
+
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3rem;
+
+
+
+}
+
+.Registro form {
+    width: 40%;
+    padding: 2rem;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+    border-radius: 0.3rem;
+
+
+
+}
+
+.Registro form label {
+    font-size: 1.5rem;
+}
+
+.Registro form input {
+    height: 1.5rem;
+    width: 80%;
+}
+
+
+
+.capaicon {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  
+
+
+
+}
+
+.capaicon img {
+   width: 70%;
+   
+}
+
+
+
+
+
+.Registro .registroDiv form button {
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(76, 76, 146);
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+}
+.Registro .registroDiv form .boton{
+    display: flex;
+    justify-content: center;
+}

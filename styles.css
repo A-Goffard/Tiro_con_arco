@@ -10,6 +10,66 @@
     --form:#928989; */
 }
 
+/* MENU BURGER RESPONSIVE */
+
+
+.topnav {
+    overflow: hidden;
+    display:flex;
+  }
+  
+#label_boton {display:none;}
+      
+/* .ham {position: absolute;
+        top: 0;
+        right: 0;
+} */
+  
+  .topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #0000ff;
+    border-radius: 0.8rem;
+  }
+  
+  .topnav a:hover {
+    background-color: #d1e6fb;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #529eef;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  
+  
+  
+  #i {fontsize: 3rem;
+        color: white;
+        background-color: pink;
+          font-size: 17px;
+    background-color: #ee2288;
+    font-size: 17px;
+     padding: 14px 16px;
+     display:none;}
+  
+  #boton_ham {
+  
+  display: none; }
+  
+  
+  
+
+
 /* CSS KELTHUM */
 img {
     height: 30rem;
@@ -149,18 +209,89 @@ body {
 
 }
 
+.imgkel {height:30rem ;
+    width:100%;} 
+   div.individual { 
+        
+                 display: flex;
+                }
+    .icon1{ 
+            height:5rem;
+            width: 5rem;
+    }
+ 
+                
+                    
+ 
+  .section1 {
+                  display: flex;
+                  align-items: center; 
+                  justify-content: space-between;
+                  width: 15rem;
+                  
+              
+            
+           
+        }
+ article .aaa { border: 1rem solid grey;
+        width: 40rem;
+       display: flex;
+       justify-content: space-between;
+        padding-left: 5rem; 
+        background-color: rgb(31, 29, 29);
+        height:6rem;
+
+}
+.aaa{
+        margin-bottom: 2rem;
+}
+
+     .buttonK { 
+                   width: 10rem;
+                  display: flex;
+                    align-items: center; 
+                 justify-content: center;
+                 background-color: rgb(0, 0, 255);
+                color: white;
+                margin: 1rem;
+               }             
+                
+    .para1 {text-align: center;
+           } 
+ .main1 { 
+        display: flex;
+        justify-content: space-between;
+       
+       
+       
+       
+        }  
+        .p1 { font-size:larger;
+            color:rgb(173, 160, 160);
+        }
+        .p2 { color: white;
+        }
+         .p3 { font-size:larger;
+                color:rgb(173, 160, 160);} 
+        .p4 { color: white;}
+        .p5{font-size:larger;
+                color:rgb(173, 160, 160); } 
+        .p6 {color: white; }
+.tari{ background-color: rgb(29, 28, 28);} 
+
+.title2{ color: rgb(109, 105, 105);}
 
 /* CSS JHON */
 
 
 /* CSS ANDRES */
+
 /* Eigen Code. Quienes somos */
 
 .imgquienessomos {
     height: 60rem;
     width: 55rem;
 }
-
 
 .quienessomos {
 display: flex;
@@ -358,6 +489,8 @@ justify-content: center;
 .cajaBlogE {
     width: 42%;
     height: auto;
+/*     display: block; */
+    justify-content: center;
 }
 
 .parrafitoB {
@@ -447,6 +580,14 @@ button {
     width: auto;
 }
 
+.imagenBb {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 50rem;
+
+}
+
 .lista {
     margin-left: 2rem;
 }
@@ -485,7 +626,7 @@ nav ul li {
 .LN {
     border-radius: 1rem;
     background-color: #3E03E8;
-    padding: 0.2rem;
+    padding: 0.3rem;
 }
 
 li {
@@ -504,7 +645,7 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
-svg {    
+.logoP {    
     /* position: absolute; */
     top: 0.5rem;
     left: 0.5rem;
@@ -553,8 +694,6 @@ width: 1rem;
 height: auto;
 }
 
-
-
 @media screen and (max-width: 1017px) {
 
     /* CSS KELTHUM */
@@ -571,6 +710,7 @@ height: auto;
 
 /* CSS AINTZANE */
 
+
 /* HEADER */
 
 nav ul {
@@ -581,7 +721,15 @@ nav ul {
 
 }
 
-@media screen and (max-width: 711px) {
+@media screen and (max-width: 726px) {
+
+/* nav {
+    display: none;
+}
+
+.logoP {
+    display: none;
+} */
 
 /* CSS KELTHUM */
 
@@ -596,5 +744,41 @@ nav ul {
 
 
 /* CSS AINTZANE */
-    
+}
+
+
+/* MENU BURGER RESPONSIVE */
+@media screen and (max-width: 726px) {
+    .topnav a:not(:first-child) {display: none;}
+  
+      #boton_ham:checked ~ #myTopnav {display: block;
+                                                 text-align: left;
     }
+    #i {display: block;}
+    /**/
+    .topnav { 
+    
+      flex-direction: column; 
+    }
+    #home {margin-right: auto;
+      }
+    
+  }
+  .topnav a {
+  
+    text-align: center; }
+  
+  #label_boton { position: absolute;
+                  top: 0;
+                   right: 0;
+                   z-index:100;
+                   display:block;
+  
+                 }
+                 
+                 
+                 
+                 /* Esto ya no funciona, porque ya no son siblings*/
+                 #boton_ham:checked ~ .icon { background-color: #33bb55;   }
+    
+                 

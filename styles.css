@@ -20,37 +20,10 @@ header {
     position: relative;
 }
 
-/* nav ul {
-    font-size: 2rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav ul li {
-    margin: 1rem;
-}
-
-.LN {
-    border-radius: 1rem;
-    background-color: #3E03E8;
-    padding: 0.3rem;
-}
-
-li {
-    color: #211C1C;
-}
-
-a {
-    color: #ffffff;
-}
-
-a:hover {
-    color: white;
-}
-
 a:link, a:visited, a:active {
     text-decoration: none;
-} */
+    color: white;
+}
 
 .logoP {    
     position: absolute;
@@ -85,6 +58,7 @@ a:link, a:visited, a:active {
     font-size: 1rem;
     background-color: #0000ff;
     border-radius: 0.8rem;
+    margin: 0.5rem;
   }
   
   .topnav a:hover {
@@ -118,217 +92,6 @@ a:link, a:visited, a:active {
   
   
 
-
-/* CSS KELTHUM */
-img {
-    height: 30rem;
-    width: 100%;
-}
-
-div.individual {
-
-    display: flex;
-    justify-content: center;
-}
-
-.iconindividual1 {border: 1rem solid red;
-    
-    
-    height: 5rem;
-    width: 5rem;
-}
-
-.iconindividual2 {border: 1rem solid red;
-    display: flex;
-    
-    height: 10rem;
-    width: 10rem;
-}
-
-
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 15rem;
-
-
-
-
-}
-
-article .aaa {
-    border: 1rem solid grey;
-    width: 20rem;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 5rem;
-    background-color: rgb(31, 29, 29);
-    height: 6rem;
-
-}
-
-.aaa {
-    margin-bottom: 2rem;
-}
-
-article button {
-    width: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
-    color: white;
-    margin: 1rem;
-}
-
-.para1 {
-    text-align: center;
-}
-
-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-
-
-
-}
-
-
-
-
-.p1 {
-    font-size: larger;
-    color: rgb(173, 160, 160);
-}
-
-.p2 {
-    color: white;
-}
-
-.p3 {
-    font-size: larger;
-    color: rgb(173, 160, 160);
-}
-
-.p4 {
-    color: white;
-}
-
-.p5 {
-    font-size: larger;
-    color: rgb(173, 160, 160);
-}
-
-.p6 {
-    color: white;
-}
-
-body {
-    background-color: rgb(29, 28, 28);
-}
-
-.title2 {
-    color: rgb(109, 105, 105);
-}
-
-
-    @media only screen and (max-width: 844px) {
-
-    main {flex-direction: column;
-          align-items: center;}
-
-          
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-}
-
-.imgkel {height:30rem ;
-    width:100%;} 
-   div.individual { 
-        
-                 display: flex;
-                }
-    .icon1{ 
-            height:5rem;
-            width: 5rem;
-    }
- 
-                
-                    
- 
-  .section1 {
-                  display: flex;
-                  align-items: center; 
-                  justify-content: space-between;
-                  width: 15rem;
-                  
-              
-            
-           
-        }
- article .aaa { border: 1rem solid grey;
-        width: 40rem;
-       display: flex;
-       justify-content: space-between;
-        padding-left: 5rem; 
-        background-color: rgb(31, 29, 29);
-        height:6rem;
-
-}
-.aaa{
-        margin-bottom: 2rem;
-}
-
-     .buttonK { 
-                   width: 10rem;
-                  display: flex;
-                    align-items: center; 
-                 justify-content: center;
-                 background-color: rgb(0, 0, 255);
-                color: white;
-                margin: 1rem;
-               }             
-                
-    .para1 {text-align: center;
-           } 
- .main1 { 
-        display: flex;
-        justify-content: space-between;
-       
-       
-       
-       
-        }  
-        .p1 { font-size:larger;
-            color:rgb(173, 160, 160);
-        }
-        .p2 { color: white;
-        }
-         .p3 { font-size:larger;
-                color:rgb(173, 160, 160);} 
-        .p4 { color: white;}
-        .p5{font-size:larger;
-                color:rgb(173, 160, 160); } 
-        .p6 {color: white; }
-.tari{ background-color: rgb(29, 28, 28);} 
-
-.title2{ color: rgb(109, 105, 105);}
 
 /* CSS JHON */
 
@@ -527,6 +290,7 @@ justify-content: center;
     align-items: center;
     text-align: center;
     justify-content: space-around;
+    margin: 1rem;
 }
 
 .tituloB {
@@ -653,6 +417,7 @@ margin-top: 1rem;
 }
 
 /* FOOTER */
+
 .footerCajas{
     background-color: #A3A2A2;
     display: flex;
@@ -693,60 +458,17 @@ width: 1rem;
 height: auto;
 }
 
-@media screen and (max-width: 1017px) {
+@media only screen and (max-width: 844px) {
 
-    /* CSS KELTHUM */
-    
-
-/* CSS JHON */
-
-
-/* CSS ANDRES */
-
-
-/* CSS RAYAN */
-
-
-/* CSS AINTZANE */
-
-
-/* HEADER */
-
-/* nav ul {
-    font-size: 120%;
-    display: flex;
-    justify-content: space-around;
-} */
-
-}
-
-@media screen and (max-width: 726px) {
-
-/* nav {
-    display: none;
-}
-
-.logoP {
-    display: none;
-} */
-
-/* CSS KELTHUM */
-
-
-/* CSS JHON */
-
-
-/* CSS ANDRES */
-
-
-/* CSS RAYAN */
-
-
-/* CSS AINTZANE */
-}
-
+.tarifasM {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
 
 /* MENU BURGER RESPONSIVE */
+
 @media screen and (max-width: 780px) {
     .topnav a {display: none;}
 
@@ -800,3 +522,4 @@ height: auto;
 .topnav a {
     margin: 0.5rem;
 }
+

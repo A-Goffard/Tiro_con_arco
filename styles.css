@@ -53,7 +53,7 @@
   
   
   
-  #i {fontsize: 3rem;
+  #i {font-size: 3rem;
         color: white;
         background-color: pink;
           font-size: 17px;
@@ -91,7 +91,7 @@ div.individual {
 
 .iconindividual2 {border: 1rem solid red;
     display: flex;
-    justify-content:
+    
     height: 10rem;
     width: 10rem;
 }

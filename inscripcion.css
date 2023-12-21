@@ -348,25 +348,16 @@ footer .footerLinksG .footerCajas div li i {
     width: 100%;
     display: flex;
     justify-content: center;
-
-    
+   
 }
 .linkreg{
 
-   
-    
     font-size: 2.5rem;
     letter-spacing: 2.5rem;
     text-decoration: none;
     color: white;
-    
 
 }
-
-
-
-
-
 
 
 .Registro {
@@ -386,8 +377,6 @@ footer .footerLinksG .footerCajas div li i {
     justify-content: space-around;
     border-radius: 3rem;
 
-
-
 }
 
 .Registro form {
@@ -399,9 +388,6 @@ footer .footerLinksG .footerCajas div li i {
 
     gap: 0.5rem;
     border-radius: 0.3rem;
-
-
-
 }
 
 .Registro form label {
@@ -413,8 +399,6 @@ footer .footerLinksG .footerCajas div li i {
     width: 80%;
 }
 
-
-
 .capaicon {
 
 
@@ -422,23 +406,12 @@ footer .footerLinksG .footerCajas div li i {
     justify-content: center;
     align-items: center;
 
-
-
-
-  
-
-
-
 }
 
 .capaicon img {
    width: 70%;
    
 }
-
-
-
-
 
 .Registro .registroDiv form button {
     width: 50%;

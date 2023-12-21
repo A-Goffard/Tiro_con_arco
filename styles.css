@@ -8,7 +8,7 @@
     
     --fondoPrimermain:#808080;
     --form:#928989; */
-    --colorFondo: #575656;
+    --colorFondo: #3b3a3a;
     --fondoPrimermain: #625E5E;
     --form: #928989;
     --header: #575656;
@@ -19,12 +19,14 @@ body {
 }
 /* HEADER */
 header {
+
     display: flex;
     align-items: center;
     background-color: grey;
     justify-content: space-between;
     height: 4rem;
-    position: relative;
+
+    z-index: 1;
 }
 
 a:link, a:visited, a:active {
@@ -256,7 +258,7 @@ div.individual {
 }
 
 .titulologdos {
-    
+    margin-left: 2rem;
     text-align: left;
 }
 
@@ -352,6 +354,7 @@ aside {
     border-radius: 100%;
     padding: 2rem;
     background-color: rgb(184, 173, 159);
+    margin-bottom: 2rem;
 }
 
 aside svg {
@@ -371,6 +374,9 @@ aside svg {
     margin-bottom: 5rem;
     border-radius: 2rem;
     padding-bottom: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .imagenes {
@@ -381,6 +387,7 @@ aside svg {
 .tituloactividades {
     font-size: 3.5rem;
     text-align: center;
+    margin: 1.5rem;
 }
 
 
@@ -470,6 +477,20 @@ aside svg {
 
 /* CSS RAYAN */
 
+.buttonRR {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000ff;
+    border-radius: 0.8rem;
+    color: white;
+    margin: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+ }
+
 .bodyR {
     background-color: rgb(29, 28, 28);
  }
@@ -540,9 +561,12 @@ input {
     justify-content: center;
 }
 
-/* .mainh {
+.Rayan {
+    display: flex;
+    justify-content: center;
+}
+.mainh {
 
-    background-color: rgb(255, 243, 243);
     background: url(img/blog/portrait-fantasy-female-ranger-archer-600nw-2022197132.webp);
     background-size: cover;
     background-position: center;
@@ -553,8 +577,8 @@ input {
     align-items: center;
     flex-direction: column;
     min-height: 50vh;
-} */
-/* 
+}
+
 .mainh h2 {
 
 
@@ -562,19 +586,33 @@ input {
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 5rem;
-} */
+}
 
-/* .parrafo {
+.parrafo {
     color: rgb(255, 255, 255);
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     justify-items: center;
     width: 100%;
     padding: 2rem;
 
-} */
+}
+.CC {
+    margin: 2rem;
+
+}
+
+.pb {
+    color: white;
+}
+
+.contactts {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .h2rn {
     font-size: 3.5rem;
@@ -586,7 +624,7 @@ input {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);  
 }
-/* 
+
 .st {
     display: flex;
     justify-content: flex-start;
@@ -594,7 +632,7 @@ input {
     height: 1%;
     color: aliceblue;
 
-} */
+}
 
 .wrap {
     opacity: 0.8;
@@ -606,6 +644,7 @@ input {
     background: url(img/blog/12-6-13-ls0544-odyssey.jpg.webp);
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
 .wrap-texto {
@@ -617,7 +656,7 @@ input {
     opacity: 0.5;
 }
 
-/* input {
+input {
     
     opacity: 0.5;
     display: flex;
@@ -628,15 +667,14 @@ input {
     border-bottom: 0.1rem solid black;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    ma: 0.5rem;
-} */
+    margin: 0.5rem;
+}
 
-/* .rn {
+.rn {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-} */
-
+}
 
 /* CSS AINTZANE */
 
@@ -933,10 +971,32 @@ height: auto;
     margin: 0.5rem;
 }
 
+@media screen and (max-width: 650px) {
+
+.entradasBlog {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.cajaBlogE {
+    width: 100%;
+    height: auto;
+/*     display: block; */
+    justify-content: center;
+}
+}
+
 @media screen and (max-width: 393px) {
 
     .pictur {
         width: 30%;
         height: auto;
     }
+
+
+
 }

@@ -88,164 +88,297 @@ a:link, a:visited, a:active {
   display: none; 
 
 }
-  
-  
-  
+/* KELTHUM */
 
+div.individual {
+
+   
+
+    display: flex;
+ }
+ 
+ .iconindividual {
+    height: 5rem;
+    width: 5rem;
+ }
+ 
+ .caja1 {
+    margin: 1rem;
+ }
+ 
+ .caja2 {
+    margin: 1rem;
+ }
+ 
+ .tarifasM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ 
+ 
+ .titulosS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem; 
+ }
+ 
+ article .aaa {
+    border: 1rem solid grey;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    background-color: rgb(31, 29, 29);
+    height: 6rem;
+ }
+ 
+ .aaa {
+    margin-bottom: 2rem;
+ }
+ 
+ .buttonK {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 0.8rem;
+    color: white;
+    margin: 1rem;
+ }
+ 
+ .para1 {
+    text-align: center;
+ }
+ 
+ main {
+    display: flex;
+    justify-content: space-between;
+ 
+ }
+ 
+ .p1 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+ }
+ 
+ .p2 {
+    color: white;
+ }
+ 
+ .p3 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+ }
+ 
+ .p4 {
+    color: white;
+ }
+ 
+ .p5 {
+    font-size: larger;
+    color: rgb(173, 160, 160);
+ }
+ 
+ .p6 {
+    color: white;
+ }
+ 
+ .bodyK {
+    background-color: rgb(29, 28, 28);
+ }
+ 
+ .title2 {
+    color: rgb(109, 105, 105);
+ }
+ 
+ .divImgK {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .imgK {
+    width: 50%;
+ }
 
 /* CSS JHON */
 
 
 /* CSS ANDRES */
 
-/* Eigen Code. Quienes somos */
-
-.imgquienessomos {
-    height: 60rem;
-    width: 55rem;
-}
-
-.quienessomos {
-display: flex;
-background-color: #665e5e;
-text-align: left;
-font-size: 20px;
-align-items: center;
-
-}
-
-.txtquienessomos {
-margin-left: 100px;
-margin-right: 100px;
-background-color: #665e5e;
-
-
-}
-
-.h1quienessomos {
-background-color:#665e5e
-
-}
-
-
-
-/* Eigen code. Misión */
-
-
-.mision {
-display: flex;
-}
-
-
-.h1mision {
-display: flex;
-align-items: center;
-height: 20rem;
-width: 50rem;
-justify-content: center;
-
-}
-
-.txtmision p {
-height: 20rem;
-width: 65rem;
-justify-content: left;
-
-}
-
-.txtmision {
-justify-content: left;
-align-items: center;
-}
-
-/* Eigen code Vision */
-
-.vision {
-display: flex;
-flex-direction: row-reverse;
-}
-
-.h1vision {
-display: flex;
-align-items: center;
-height: 20rem;
-width: 50rem;
-justify-content: center;
-
-}
-
-.txtvision p {
-height: 20rem;
-width: 65rem;
-justify-content: left;
-
-}
-
-.txtvision {
-justify-content: left;
-align-items: center;
-}
-
-
-/* Egen code Valores */
-
-.valores {
-display: flex;
-flex-direction: row;
-}
-
-.h1valores {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 20rem;
-width: 50rem;
-
-}
-
-.txtvalores p {
-height: 20rem;
-width: 65rem;
-justify-content: left;
-
-}
-
-.txtvalores {
-justify-content: left;
-align-items: center;
-}
-
-/* Eigen code Nuestro Equipo */
-
-.h1nuestroequipo {
-display: flex;
-justify-content: center;
-}
-
-.imgequipo {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-
-}
-
-.imgequipo img {
-height: 20rem;
-width: 20rem;
-object-fit: cover;
-
-
-}
-
-.nuestroequipo {
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-
 
 /* CSS RAYAN */
+
+.bodyR {
+    background-color: rgb(29, 28, 28);
+ }
+ 
+.sectionR {
+
+    margin: auto;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.pictur {
+
+
+    background-color: rgb(80, 80, 80);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    border: 0.5rem solid gray;
+    border-radius: 0.8rem;
+
+}
+
+.imgR {
+    background-color: rgb(80, 80, 80);
+    padding: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+    width: 18%;
+    height: auto;
+    border: 0.5rem solid gray;
+    border-radius: 5%;
+
+}
+
+.images {
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+form {
+    display: block;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+input {
+    padding: 0.5rem;
+}
+
+.post {
+    display: block;
+    flex-direction: column;
+
+}
+
+.mainR {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .mainh {
+
+    background-color: rgb(255, 243, 243);
+    background: url(img/blog/portrait-fantasy-female-ranger-archer-600nw-2022197132.webp);
+    background-size: cover;
+    background-position: center;
+    border: 0.1rem solid rgb(85, 37, 37);
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+} */
+/* 
+.mainh h2 {
+
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    padding: 5rem;
+} */
+
+/* .parrafo {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 100%;
+    padding: 2rem;
+
+} */
+
+.h2rn {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.prn {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);  
+}
+/* 
+.st {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1%;
+    color: aliceblue;
+
+} */
+
+.wrap {
+    opacity: 0.8;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/blog/12-6-13-ls0544-odyssey.jpg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap-texto {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+    font-size: 3rem;
+    background-color: rgb(75, 75, 75);
+    opacity: 0.5;
+}
+
+/* input {
+    
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 0rem solid black;
+    border-bottom: 0.1rem solid black;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    ma: 0.5rem;
+} */
+
+/* .rn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+} */
 
 
 /* CSS AINTZANE */
@@ -322,7 +455,7 @@ justify-content: center;
     border-radius: 0.8rem;
 }
 
-button {
+.buttonB {
     margin: 2rem;
 }
 
@@ -467,6 +600,26 @@ height: auto;
         align-items: center;
         }
 
+@media screen and (max-width: 843px) {
+
+.pictur {
+    width: 50%;
+    height: 50%;
+}
+
+.wrap-texto {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+    font-size: 2rem;
+    background-color: rgb(75, 75, 75);
+    opacity: 0.5;
+}
+        
+.mainh {
+    width: 100%;
+}
+
 /* MENU BURGER RESPONSIVE */
 
 @media screen and (max-width: 780px) {
@@ -523,3 +676,10 @@ height: auto;
     margin: 0.5rem;
 }
 
+@media screen and (max-width: 393px) {
+
+    .pictur {
+        width: 30%;
+        height: auto;
+    }
+}

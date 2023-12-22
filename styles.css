@@ -17,6 +17,20 @@
 body {
     background-color: var(--colorFondo);
 }
+
+
+li a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
 /* HEADER */
 header {
 
@@ -363,38 +377,101 @@ aside svg {
 .parrafologo {
     font-size: 1.3rem;
     text-align: center;
+    background: none;
 }
 
 /* /////////////////////////////SEUNGO MAIN ////////////////////////////////////////*/
-.segundomain {
-    background-color: var(--fondoPrimermain);
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    border-radius: 2rem;
-    padding-bottom: 8rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+.segundomain{
 
-.imagenes {
-    display: flex;
-    justify-content: space-around;
-}
 
-.tituloactividades {
-    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.actividades-texto{
     text-align: center;
-    margin: 1.5rem;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 
-.imagenes img {
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    background-color: var(--fondoimagen);
-    width: 15%;
-    height: auto;
+
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
+
+
+
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+
+}
+
+.imagen1{
+    background-image: url(img/loger/photo-1510925751334-0fe90906839b.jpeg);
+    width: 10rem;
+    height: 20rem;
+    background-size: cover;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.imagen2{
+    background-image: url(img/loger/photo-1510925758641-869d353cecc7.jpeg);
+    width: 10rem;
+    height: 20rem;
+    background-size: cover;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen3{
+    background-image: url(img/loger/photo-1564936566874-235b39ef9492.jpeg);
+    width: 10rem;
+    height: 20rem;
+    background-size: cover;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen4{
+    background-image: url(img/loger/premium_photo-1664304654310-bf07581e8aea.jpeg);
+    width: 10rem;
+    height: 20rem;
+    background-size: cover;
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-p{
+
+    color: white;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    border-radius: 2rem;
+    padding: 0.5rem;
+
 }
 
 
@@ -471,6 +548,435 @@ aside svg {
 }
 
 /* CSS ANDRES */
+
+/* Eigen Code. Quienes somos */
+
+.quienessomoshoofd {display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #211C1C; */
+} 
+
+.imgquienessomos {
+    height: 40rem;
+    width: 55rem;
+}
+
+
+.quienessomos {
+display: flex;
+
+background-color: #665e5e;
+text-align: left;
+font-size: 20px;
+align-items: center;
+
+
+
+}
+
+.pquienessomos {
+    color: white;
+}
+
+.txtquienessomos {
+margin-left: 100px;
+margin-right: 100px;
+background-color: #665e5e;
+
+
+
+}
+
+.h1quienessomos {
+background-color:#665e5e;
+color: white;
+
+
+}
+
+
+
+/* Eigen code. Misión */
+
+
+.mision {
+display: flex;
+overflow: hidden;
+}
+
+
+.h1mision {
+margin-left: 5rem;
+justify-content: left;
+color: white; 
+
+}
+
+.imgmision {
+    width: 45%;
+    max-width: 39rem;   
+    
+}
+
+.imgmision1 {
+    width: 100%;
+    height: 100%;
+}
+ /*
+.imgmision:hover {
+    transform: scale(1,2) ; 
+}
+*/
+
+.txtmision li {
+    
+    color: white;
+    justify-content: left;
+    
+} 
+
+.txtmision {
+    display: flex;
+    background-color:#665e5e;
+    align-items: center;
+
+}
+
+.listmision {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color:#706767;
+    padding: 1rem;
+    
+    transition: 0.5s;
+    
+}
+
+.listmision:hover {
+    transform: scale(1,2);
+}
+
+
+
+
+
+/* Eigen code Vision */
+
+.vision {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgvision {
+    width: 45%;
+    max-width: 39rem;
+
+}
+
+.h1vision {
+    margin-left: 5rem;
+    justify-content: left;
+    color: white; 
+    
+    }
+
+/*.h1vision {
+display: flex;
+align-items: center;
+height: 20rem;
+width: 50rem;
+justify-content: center;
+color: white; 
+
+} */
+
+.txtvision li {
+    
+    color: white;
+    justify-content: left;
+    
+} 
+
+.txtvision {
+    display: flex;
+    background-color:#665e5e;
+    align-items: center;
+    width: 100%;
+
+}
+
+.listvision {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color:#706767;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+
+/* .txtvision {
+height: 25rem;
+width: 100%;
+justify-content: left;
+color: white; 
+
+} */
+
+
+
+
+
+
+/* Egen code Valores */
+
+.valores {
+display: flex;
+flex-direction: row;
+}
+
+.imgvalores {
+    width: 45%;
+    max-width: 39rem;
+}
+
+.h1valores {
+    margin-left: 5rem;
+    justify-content: left;
+    color: white; 
+    
+    }
+
+/* .h1valores {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 20rem;
+width: 50rem;
+color: white;
+
+} */
+
+.txtvalores li {
+    
+    color: white;
+    justify-content: left;
+    
+} 
+
+.txtvalores {
+    display: flex;
+    background-color:#665e5e;
+    align-items: center;
+    width: 100%;
+
+}
+
+.listvalores {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color:#706767;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+
+/* .txtvalores p {
+height: 25rem;
+width: 100%;
+justify-content: left;
+color: white;
+
+}
+
+.txtvalores {
+justify-content: left;
+align-items: center;
+}
+ */
+
+
+
+/* Eigen code Nuestro Equipo */
+
+.grrrrid {
+    align-items: center;
+    background-color: #211C1C;
+}
+
+.h1nuestroequipo {
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+ .equipocaja {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+} 
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    /*  grid-gap: 2rem */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-gap: 2rem;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr (auto-fit, minmax(300px, 1fr)); */
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 20rem;
+    
+   
+
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    font-size: 1rem;
+    padding: 1rem;
+    background: rgba(32, 22, 22, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper:hover > img.blur {
+    filter: blur(5px);
+}
+
+.img-wrapper > .content.fade {
+    opacity: 0;
+    
+}
+
+.img-wrapper:hover > .content.fade {
+    opacity: 1;
+}
+
+/* EIGEN CODE NUESTROS EVENTOS */
+
+.grideventos {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: auto;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr; */
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    object-position: center;
+    margin: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    
+}
+
+.imgeventos:hover {
+    transform: scale(1,2); 
+    z-index: 2;
+    
+
+}
+
+
+.imgeventos {
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+
+
+.grideventos img {
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+        
+      
+}
+
+.grideventos {
+    align-items: center;
+
+}
+
+.quienessomoshoofd .grideventos {
+    align-items: center;
+ 
+}
+
+
+.grideventoshoofd {
+    align-items: center;
+    justify-content: center;
+    background-color: #211C1C;
+   
+    
+}
+
+.somosuna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.somosuna2 {
+    margin-top: 0.3rem;
+    text-align: center;
+    width: 35rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    background-color: #0000ff;
+    border-radius: 0.8rem;
+
+
+}
+/*
+.grideventoshoofd {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38rem;
+    margin-right: 40rem;
+
+} */
 
 
 /* CSS RAYAN */
@@ -700,6 +1206,7 @@ p {
 }
  .h3Aintzane a:hover {
     color: blue;
+    transition: 0.3s;
  }
 
 /* BLOG */
@@ -753,6 +1260,7 @@ justify-content: center;
 .buttonB:hover {
     background-color: blue;
     color: white;
+    transition: 0.3s;
 }
 
 .buttonB {
@@ -781,7 +1289,7 @@ justify-content: center;
 .cajaBlogEM:hover {
 
     background-color: #b8b4b4;
-
+    transition: 1s;
 }
 
 .imagenBE {
@@ -897,6 +1405,148 @@ width: 1rem;
 height: auto;
 }
 
+@media only screen and (max-width: 1400px) {
+    .contenedor_1{width:70%}
+    .h1quienessomos{width: 70%;}
+    /* .imgquienessomos{width: 70%;} */
+/*     .txtquienessomos{width:30rem;}
+    .imgquienessomos{width:30rem;} */
+}
+@media only screen and (max-width: 1000px) {
+    .quienessomos{display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  width: 100%;
+                  margin-bottom: 2rem;
+                  background-color: #A3A2A2;
+                 }
+    .mision{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center
+           }
+    .vision{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           }
+    .valores{display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+            }
+    .txtquienessomos{width: 100%;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     flex-wrap: wrap;
+                    
+                     background-color: #6B6B6B;
+                    }
+    .imgquienessomos{width: 75%;
+    height: auto;}
+    .imgmision{width: 100%;}
+    .imgvision{width: 100%;}
+    .imgvalores{width: 100%;}
+    
+}
+@media only screen and (max-width: 1000px) {
+    .actividades-texto h2{
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .segundomain{
+    
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
+    }
+    .actividades-texto{
+        text-align: center;
+    }
+    
+    
+    
+    
+    .imagenes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    
+    
+    
+    }
+    .tarjeta{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    
+    
+    }
+    
+    .imagen1{
+        background-image: url(img/loger/photo-1510925751334-0fe90906839b.jpeg);
+        width: 10rem;
+        height: 20rem;
+        background-size: cover;
+        border-radius: 3rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+    }
+    .imagen2{
+        background-image: url(img/loger/photo-1510925758641-869d353cecc7.jpeg);
+        width: 10rem;
+        height: 20rem;
+        background-size: cover;
+        border-radius: 3rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen3{
+        background-image: url(img/loger/photo-1564936566874-235b39ef9492.jpeg);
+        width: 10rem;
+        height: 20rem;
+        background-size: cover;
+        border-radius: 3rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen4{
+        background-image: url(img/loger/premium_photo-1664304654310-bf07581e8aea.jpeg);
+        width: 10rem;
+        height: 20rem;
+        background-size: cover;
+        border-radius: 3rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-p{
+        color: white;
+        text-align: center;
+        background-color: rgb(7, 7, 7);
+        border-radius: 2rem;
+        padding: 0.5rem;
+    
+    }
+    
+}
 @media only screen and (max-width: 844px) {
 
 .tarifasM {
@@ -905,8 +1555,6 @@ height: auto;
         justify-content: center;
         align-items: center;
         }
-
-@media screen and (max-width: 843px) {
 
 .pictur {
     width: 50%;
@@ -924,6 +1572,14 @@ height: auto;
         
 .mainh {
     width: 100%;
+}
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+
+}
 }
 
 /* MENU BURGER RESPONSIVE */
@@ -944,6 +1600,10 @@ height: auto;
     }
   
 }
+
+/* .capaicon {
+    display: none;
+} */
 .topnav a {
 
   text-align: center; }
@@ -1005,9 +1665,24 @@ article .aaa {
 /*     display: block; */
     justify-content: center;
 }
-
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
+}
+@media screen and (max-width: 450px){
+    .primermain  {
+        display: block;
+        justify-content: center;
+    }
+    .logeo {
+        width: 100%;
+}
+    aside {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 393px) {
 
     .pictur {

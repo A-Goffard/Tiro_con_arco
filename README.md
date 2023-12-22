@@ -25,5 +25,24 @@ Cada página tiene los elementos que cada coder ha decidido añadir consensuando
 
 ##Inicio
 
+Una presentación general con alguna imagen
 
+##Presentación
 
+Una página con diferentes partes para presentar tanto el deporte como al equipo que participa
+
+##Inscripción
+
+Un formulario para acceder con usuario y contraseña
+
+##Tarifas
+
+Una página en la que aparecen diferentes tarifas tanto para personas individuales como para grupos
+
+##Blog
+
+Una página con diferenetes entradas de blog en modo presentación desde la que se puede acceder a la lectura completa mediante botones de seguir leyendo.
+
+##Contacto
+
+Página de contacto

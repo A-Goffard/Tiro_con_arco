@@ -4,7 +4,7 @@
 
 Web Tiro con arco de estudiantes aprendiendo
 
-##Generalizades
+## Generalizades
 
 En este repositorio estamos creando una web como si fuera para un equipo o asociación de Tiro con Arco. Una wev estática para ir aprendiendo y repasando el html y el CSS.
 
@@ -23,26 +23,26 @@ Dentro de la web tenemmos un menú de tipo responsive que se vuelve menú hambur
 
 Cada página tiene los elementos que cada coder ha decidido añadir consensuando un estilo general usando Figma. 
 
-##Inicio
+## Inicio
 
 Una presentación general con alguna imagen
 
-##Presentación
+## Presentación
 
 Una página con diferentes partes para presentar tanto el deporte como al equipo que participa
 
-##Inscripción
+## Inscripción
 
 Un formulario para acceder con usuario y contraseña
 
-##Tarifas
+## Tarifas
 
 Una página en la que aparecen diferentes tarifas tanto para personas individuales como para grupos
 
-##Blog
+## Blog
 
 Una página con diferenetes entradas de blog en modo presentación desde la que se puede acceder a la lectura completa mediante botones de seguir leyendo.
 
-##Contacto
+## Contacto
 
 Página de contacto
